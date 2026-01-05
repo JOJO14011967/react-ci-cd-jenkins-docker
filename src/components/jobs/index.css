@@ -1,0 +1,56 @@
+
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+  background-color: #f4f5f7;
+  min-height: 100vh;
+}
+
+/* LEFT SIDE - Profile + Filters */
+.left-section {
+  width: 25%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* RIGHT SIDE - All Jobs */
+.right-section {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Filter Dropdown */
+.filter-search {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-search label {
+  font-weight: 600;
+  color: #333;
+}
+
+.filter-search select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.loading-text {
+  color: #555;
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+}

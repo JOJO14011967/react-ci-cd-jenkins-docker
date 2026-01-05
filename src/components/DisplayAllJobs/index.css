@@ -1,0 +1,9 @@
+.job-card {
+  transition: transform 0.2s ease-in-out;
+}
+.job-card:hover {
+  transform: scale(1.02);
+}
+.company-logo {
+  border-radius: 8px;
+}
