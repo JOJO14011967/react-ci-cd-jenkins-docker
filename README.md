@@ -1,6 +1,6 @@
 React CI/CD Pipeline with Jenkins & Docker
 
-🧠 Project Overview
+
 This repository contains a sample React application configured with a full CI/CD pipeline using Jenkins and Docker. It demonstrates how to automatically build, test, containerize, and deploy your React app on every code change using a Jenkins pipeline and Docker images. The pipeline integrates with GitHub and can be extended to push to registries like Docker Hub or Amazon ECR.
 
 The goal of this project is to show a production-ready CI/CD workflow that you can reuse or customize for real applications.
