@@ -1,16 +1,24 @@
-# React + Vite
+React CI/CD with Jenkins & Docker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a complete CI/CD workflow for a React application, integrating GitHub, Jenkins, and Docker to automate build, containerization, and deployment processes. 
+GitHub
 
-Currently, two official plugins are available:
+🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository includes a sample React application configured to:
 
-## React Compiler
+Build and package the React app with Docker
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Automate CI/CD via Jenkins on each commit/push
 
-## Expanding the ESLint configuration
+Deploy updated container images automatically
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This setup helps streamline development workflows by minimizing manual build/deploy steps, ensuring that changes are automatically tested and deployed.
+
+📦 Technologies Used
+Technology	Purpose
+React	Front-end application
+Vite	Fast development & build tooling
+Docker	Containerization of the app
+Jenkins	CI/CD orchestration
+GitHub	Source control
