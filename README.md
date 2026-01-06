@@ -15,13 +15,14 @@ Deploy updated container images automatically
 
 This setup helps streamline development workflows by minimizing manual build/deploy steps, ensuring that changes are automatically tested and deployed.
 
-📦 Technologies Used
-Technology	Purpose
-React	Front-end application
-Vite	Fast development & build tooling
-Docker	Containerization of the app
-Jenkins	CI/CD orchestration
-GitHub	Source control
+| Technology  | Purpose                          |
+| ----------- | -------------------------------- |
+| **React**   | Front-end application            |
+| **Vite**    | Fast development & build tooling |
+| **Docker**  | Containerization of the app      |
+| **Jenkins** | CI/CD orchestration              |
+| **GitHub**  | Source control                   |
+
 📁 Repository Structure
 ├── public/                   # Static files
 ├── src/                      # React source code
